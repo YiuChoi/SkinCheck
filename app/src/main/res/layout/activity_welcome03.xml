@@ -1,0 +1,35 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:background="@color/bg"
+    tools:context="name.caiyao.skinCheck.UI.Welcome01Activity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@color/text_bg">
+
+    <TextView
+        android:id="@+id/sun"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/bg"
+        android:text="防晒小贴士"
+        android:layout_gravity="center_horizontal"
+        android:textSize="24sp"
+        android:textColor="@color/white"/>
+
+    <TextView
+        android:id="@+id/sun_content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="  武汉今日气温XX℃，紫外线强度为XX，您的肤质为XX，建议使用XX防晒级别的防晒霜，并配合遮阳伞。。。。。"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:background="@drawable/textview_style"/>
+    </LinearLayout>
+</RelativeLayout>

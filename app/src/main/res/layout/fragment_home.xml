@@ -1,0 +1,43 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg"
+    tools:context="name.caiyao.skinCheck.UI.fragment.HomeFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/tv_weather"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="40dp"
+            android:textSize="24sp"
+            android:background="@color/text_bg"
+            android:textColor="@color/white"
+            android:text="天气"
+            android:layout_marginLeft="20dp"
+            android:layout_marginStart="49dp"
+            android:layout_marginTop="20dp"
+            android:layout_alignTop="@+id/btn_con"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="未连接\n信号强度：-100dm"
+            android:textColor="@color/white"
+            android:background="@color/button_bg"
+            android:textSize="20sp"
+            android:layout_centerVertical="true"
+            android:layout_toEndOf="@+id/tv_weather"
+            android:layout_alignParentEnd="true"
+            android:layout_marginLeft="10dp"
+            android:layout_marginEnd="10dp"
+            android:id="@+id/btn_con" />
+    </RelativeLayout>
+
+
+</FrameLayout>

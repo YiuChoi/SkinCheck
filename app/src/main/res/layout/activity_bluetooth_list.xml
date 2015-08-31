@@ -1,0 +1,37 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:background="@color/bg"
+    tools:context="name.caiyao.skinCheck.UI.BluetoothListActivity"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <ListView
+        android:id="@+id/lv_bluetooth"
+        android:layout_width="wrap_content"
+        android:layout_height="310dp" />
+    <ListView
+        android:id="@+id/lv_message"
+        android:layout_width="match_parent"
+        android:layout_height="160dp" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_height="match_parent">
+        <EditText
+            android:id="@+id/et_blue_send"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:background="@color/text_bg"
+            android:layout_height="40dp" />
+        <Button
+            android:id="@+id/btn_blue_send"
+            android:text="发送"
+            android:textColor="@color/white"
+            android:layout_weight="3"
+            android:background="@color/button_bg"
+            android:layout_width="match_parent"
+            android:layout_height="40dp" />
+    </LinearLayout>
+
+</LinearLayout>

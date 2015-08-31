@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="spingarr">
+        <item>请选择您的肤质</item>
+        <item>中性</item>
+        <item>干性</item>
+        <item>油性</item>
+        <item>混合性</item>
+        <item>敏感性</item>
+    </string-array>
+</resources>
